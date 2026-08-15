@@ -332,10 +332,7 @@ ClockStopWatchRunning 是短链路任务，Baseline A 本身已经能稳定完�
 
 <img width="1934" height="1008" alt="image" src="https://github.com/user-attachments/assets/6d54745b-21c8-46ca-9b9d-26a488824765" />
 
-在SystemWifiTurnOn任务中，DMS系统展现了显著的进化效果：
-Round 1: 6 steps, 183k tokens
-Round 2-5: 稳定到 4 steps
-token 降到约 74k-83k
+在SystemWifiTurnOn任务中，DMS系统展现了显著的进化效果：第一轮:执行 6 steps, 消耗 183k tokens；第2-5轮：稳定于 4 steps，消耗 74k-83k tokens。
 
 ### 6.5 初步分析
 
