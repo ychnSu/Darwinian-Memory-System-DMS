@@ -308,43 +308,8 @@ mini-benchmark 共包含 22 个任务模板，覆盖全部 20 个真实应用场
 |Baseline A / PA-Lite|14.55%|13.44|262,223.07|
 |Baseline B / Static Memory|13.64%|14.01|342,979.27|
 |DMS|37.82%|9.84|237,963.19|
+<img width="1680" height="762" alt="image" src="https://github.com/user-attachments/assets/d800ceb7-401c-45b1-96a2-3b7673775c2f" />
 
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img" aria-label="Overall comparison across all mini-benchmark tasks">
-  <rect width="920" height="430" fill="#ffffff"/>
-  <text x="460" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Overall Mini-benchmark Comparison</text>
-  <text x="460" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">All selected AndroidWorld tasks; lower is better for Steps and Tokens</text>
-  <style>
-    .axis{stroke:#374151;stroke-width:1.2}.grid{stroke:#e5e7eb;stroke-width:1}.tick{font:11px Arial;fill:#6b7280}.label{font:13px Arial;fill:#374151}.title{font:15px Arial;font-weight:700;fill:#111827}.val{font:12px Arial;fill:#111827}.a{fill:#4F6FAF}.b{fill:#B08954}.d{fill:#2F9B72}
-  </style>
-  <g transform="translate(40,82)">
-    <text class="title" x="130" y="0" text-anchor="middle">Success Rate</text>
-    <line class="grid" x1="30" y1="50" x2="250" y2="50"/><line class="grid" x1="30" y1="110" x2="250" y2="110"/><line class="grid" x1="30" y1="170" x2="250" y2="170"/>
-    <line class="axis" x1="30" y1="230" x2="250" y2="230"/><line class="axis" x1="30" y1="30" x2="30" y2="230"/>
-    <text class="tick" x="22" y="234" text-anchor="end">0</text><text class="tick" x="22" y="174" text-anchor="end">15</text><text class="tick" x="22" y="114" text-anchor="end">30</text><text class="tick" x="22" y="54" text-anchor="end">45</text>
-    <rect class="a" x="58" y="165.33" width="42" height="64.67" rx="2"/><rect class="b" x="119" y="169.38" width="42" height="60.62" rx="2"/><rect class="d" x="180" y="61.91" width="42" height="168.09" rx="2"/>
-    <text class="val" x="79" y="156" text-anchor="middle">14.55%</text><text class="val" x="140" y="160" text-anchor="middle">13.64%</text><text class="val" x="201" y="52" text-anchor="middle">37.82%</text>
-    <text class="tick" x="79" y="254" text-anchor="middle">A</text><text class="tick" x="140" y="254" text-anchor="middle">B</text><text class="tick" x="201" y="254" text-anchor="middle">DMS</text>
-  </g>
-  <g transform="translate(330,82)">
-    <text class="title" x="130" y="0" text-anchor="middle">Average Steps</text>
-    <line class="grid" x1="30" y1="80" x2="250" y2="80"/><line class="grid" x1="30" y1="130" x2="250" y2="130"/><line class="grid" x1="30" y1="180" x2="250" y2="180"/>
-    <line class="axis" x1="30" y1="230" x2="250" y2="230"/><line class="axis" x1="30" y1="30" x2="30" y2="230"/>
-    <text class="tick" x="22" y="234" text-anchor="end">0</text><text class="tick" x="22" y="184" text-anchor="end">4</text><text class="tick" x="22" y="134" text-anchor="end">8</text><text class="tick" x="22" y="84" text-anchor="end">12</text><text class="tick" x="22" y="34" text-anchor="end">16</text>
-    <rect class="a" x="58" y="62.00" width="42" height="168.00" rx="2"/><rect class="b" x="119" y="54.88" width="42" height="175.12" rx="2"/><rect class="d" x="180" y="107.00" width="42" height="123.00" rx="2"/>
-    <text class="val" x="79" y="53" text-anchor="middle">13.44</text><text class="val" x="140" y="46" text-anchor="middle">14.01</text><text class="val" x="201" y="98" text-anchor="middle">9.84</text>
-    <text class="tick" x="79" y="254" text-anchor="middle">A</text><text class="tick" x="140" y="254" text-anchor="middle">B</text><text class="tick" x="201" y="254" text-anchor="middle">DMS</text>
-  </g>
-  <g transform="translate(620,82)">
-    <text class="title" x="130" y="0" text-anchor="middle">Average Tokens</text>
-    <line class="grid" x1="30" y1="71" x2="250" y2="71"/><line class="grid" x1="30" y1="124" x2="250" y2="124"/><line class="grid" x1="30" y1="177" x2="250" y2="177"/>
-    <line class="axis" x1="30" y1="230" x2="250" y2="230"/><line class="axis" x1="30" y1="30" x2="30" y2="230"/>
-    <text class="tick" x="22" y="234" text-anchor="end">0</text><text class="tick" x="22" y="181" text-anchor="end">100k</text><text class="tick" x="22" y="128" text-anchor="end">200k</text><text class="tick" x="22" y="75" text-anchor="end">300k</text>
-    <rect class="a" x="58" y="91.99" width="42" height="138.01" rx="2"/><rect class="b" x="119" y="49.48" width="42" height="180.52" rx="2"/><rect class="d" x="180" y="104.76" width="42" height="125.24" rx="2"/>
-    <text class="val" x="79" y="83" text-anchor="middle">262k</text><text class="val" x="140" y="41" text-anchor="middle">343k</text><text class="val" x="201" y="96" text-anchor="middle">238k</text>
-    <text class="tick" x="79" y="254" text-anchor="middle">A</text><text class="tick" x="140" y="254" text-anchor="middle">B</text><text class="tick" x="201" y="254" text-anchor="middle">DMS</text>
-  </g>
-  <g transform="translate(310,380)"><rect class="a" x="0" y="-11" width="12" height="12"/><text class="label" x="18" y="0">Baseline A / PA-Lite</text><rect class="b" x="178" y="-11" width="12" height="12"/><text class="label" x="196" y="0">Baseline B / Static Memory</text><rect class="d" x="410" y="-11" width="12" height="12"/><text class="label" x="428" y="0">DMS</text></g>
-</svg>
 
 DMS 在 mini-benchmark 上取得最高总体 SR，同时平均步数和 token 消耗低于两个 baseline。Baseline B 的整体表现没有超过 Baseline A，说明静态历史轨迹如果缺少筛选、检索和风险控制，可能会干扰 7B 模型的当前状态判断。
 
