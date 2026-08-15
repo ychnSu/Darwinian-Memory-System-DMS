@@ -290,7 +290,7 @@ Pruning 产生的指标会写入 `results.csv` 和 `summary.json`，包括 `memo
 
 ### 6.1 Mini-benchmark 任务选取
 
-本项目没有直接运行 AndroidWorld 全量任务，而是构建了一个规模更小、可重复执行的 mini-benchmark。该测试集保存在 `configs/mini_benchmark.json`，每个任务默认运行 5 个 trials，与论文中的多轮评估设置保持一致。
+受限于时间以及算力，本项目基于Androidworld基准采样构建了一个规模更小、可重复执行的 mini-benchmark。该测试集保存在 `configs/mini_benchmark.json`，每个任务默认运行 5 个 trials，与论文中的多轮评估设置保持一致。
 
 mini-benchmark 共包含 22 个任务模板，覆盖全部 20 个真实应用场景，包括 Clock、Camera、Contacts、Files、Settings、Markor、Joplin、OsmAnd、VLC、Simple Calendar、Simple SMS、Audio Recorder 等。
 
@@ -397,6 +397,8 @@ Planner 侧主要强化为：
 
 第一，模型规模差距无法完全通过 prompt 弥补。7B 模型在 UI 文字识别、控件语义理解和长程任务规划上仍弱于 72B 级模型，因此部分任务即使有记忆也会出现 replay 不完整、漏点确认按钮、字段输入停滞等问题。
 
-第二，AndroidWorld 环境本身存在 app 初始状态、intent 映射、snapshot 缺失和模拟器速度差异。
+第二，AndroidWorld 环境本身存在 app 初始状态、intent 映射、snapshot 缺失和模拟器速度差异，受网络波动影响，通信质量并不是很高，导致出现延迟，动作不一致等情况。
 
 第三，当前 DMS 的动态进化已经包含 survival value、risk gate、mutation replacement 和 pruning，但效果仍受基础 Actor 成功率制约。如果 Actor 无法产生可用成功轨迹，DMS 无法凭空形成高质量记忆。因此，本复现中 DMS 的收益更依赖“先得到少量成功轨迹，再通过检索和 replay 降低后续成本”的过程。
+
+第四，样本量较小，任务覆盖率只有20%，未在完整的116个任务基准上进行评估，存在随机性扰动，并且存在三类方法成功率都为0的任务。
