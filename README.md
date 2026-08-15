@@ -10,7 +10,7 @@
 |-|-|-|
 |Zero-shot Planner-Actor|Baseline A / PA-Lite|不使用历史记忆，仅基于当前任务、当前截图和当前 UI tree 规划并执行|
 |Static Memory|Baseline B|将历史任务轨迹按时间顺序追加保存，并在 Planner 阶段作为上下文参考，不做检索、变异、替换或剪枝|
-|Darwinian Memory System|DMS|构建可检索、可复用、可反馈更新、可变异替换、可动态剪枝的经验记忆库|
+|Darwinian Memory System|DMS|构建可检索、可复用、可反馈更新、可动态剪枝的经验记忆库|
 
 其中，Baseline A 用于衡量模型在无经验积累条件下的基础 GUI 操作能力；Baseline B 用于衡量传统静态历史上下文是否能带来收益；DMS 则用于验证论文提出的动态记忆机制是否能在多轮任务中产生更稳定的经验复用和性能演化。
 
