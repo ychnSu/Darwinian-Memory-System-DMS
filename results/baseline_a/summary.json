@@ -1,0 +1,10 @@
+{
+  "SR": NaN,
+  "agent_name": "zero_shot",
+  "avg_steps_per_task": NaN,
+  "avg_tokens_per_task": 262223.0677966102,
+  "benchmark_config": "configs/mini_benchmark.json",
+  "num_tasks": 110,
+  "suite_family": "android_world",
+  "task_difficulty": "all"
+}

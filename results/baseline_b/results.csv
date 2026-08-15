@@ -1,0 +1,562 @@
+timestamp_utc,agent_name,task_template,k,seed,success,SA,cumulative_SA,episode_length,run_time_s,status,token_total,token_prompt,token_completion,exception_info,goal
+2026-08-14T07:14:15.775320+00:00,static_memory,OpenAppTaskEval,1,3755248659,True,1,1.0,2,70.79536700248718,success,36700,36551,149,,Open the contacts app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-14T07:15:26.616659+00:00,static_memory,OpenAppTaskEval,2,3608958401,True,1,1.0,2,68.35426878929138,success,37443,37299,144,,Open the contacts app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-14T07:16:57.301995+00:00,static_memory,OpenAppTaskEval,3,2349914223,True,1,1.0,2,87.88264179229736,success,46882,46695,187,,Open the camera app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-14T07:18:11.064235+00:00,static_memory,OpenAppTaskEval,4,1306832883,True,1,1.0,2,71.08406329154968,success,47388,47198,190,,Open the camera app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-14T07:18:46.489943+00:00,static_memory,OpenAppTaskEval,5,3251767968,True,1,1.0,1,33.15093994140625,success,18654,18592,62,,Open the dialer app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-14T07:21:26.142135+00:00,static_memory,ClockStopWatchRunning,1,3429360255,False,0,0.8333333333333334,10,154.1084327697754,failure,199918,199042,876,,Run the stopwatch.
+2026-08-14T07:21:48.311568+00:00,static_memory,ClockStopWatchRunning,2,2304307552,False,0,0.7142857142857143,1,21.150182962417603,failure,18615,18518,97,,Run the stopwatch.
+2026-08-14T07:24:23.481420+00:00,static_memory,ClockStopWatchRunning,3,982386346,False,0,0.625,10,152.53971934318542,failure,199832,198985,847,,Run the stopwatch.
+2026-08-14T07:25:18.782517+00:00,static_memory,ClockStopWatchRunning,4,2244129732,True,1,0.6666666666666666,2,53.6816771030426,success,45481,45288,193,,Run the stopwatch.
+2026-08-14T07:25:41.991962+00:00,static_memory,ClockStopWatchRunning,5,2380428130,False,0,0.6,1,22.07268476486206,failure,17851,17737,114,,Run the stopwatch.
+2026-08-14T07:26:14.636318+00:00,static_memory,ClockStopWatchPausedVerify,1,3959502054,True,1,0.6363636363636364,1,30.975822925567627,success,18817,18715,102,,Pause the stopwatch.
+2026-08-14T07:29:21.069446+00:00,static_memory,ClockStopWatchPausedVerify,2,1833061731,False,0,0.5833333333333334,10,183.58771014213562,failure,271596,270636,960,,Pause the stopwatch.
+2026-08-14T07:32:09.472077+00:00,static_memory,ClockStopWatchPausedVerify,3,629279813,False,0,0.5384615384615384,10,166.02123093605042,failure,233767,232833,934,,Pause the stopwatch.
+2026-08-14T07:35:36.110737+00:00,static_memory,ClockStopWatchPausedVerify,4,318062807,False,0,0.5,10,204.22779846191406,failure,256537,255429,1108,,Pause the stopwatch.
+2026-08-14T07:38:34.694092+00:00,static_memory,ClockStopWatchPausedVerify,5,4037155113,True,1,0.5333333333333333,8,175.62393069267273,success,226011,224193,1818,,Pause the stopwatch.
+2026-08-14T07:41:33.856073+00:00,static_memory,RecipeDeleteSingleRecipe,1,4252496861,False,0,0.5,10,174.77638864517212,failure,259153,258003,1150,,Delete the following recipes from Broccoli app: Thai Peanut Noodle Salad.
+2026-08-14T07:44:31.044548+00:00,static_memory,RecipeDeleteSingleRecipe,2,3773831362,False,0,0.47058823529411764,10,172.8131968975067,failure,259427,258314,1113,,Delete the following recipes from Broccoli app: BBQ Chicken Quesadillas.
+2026-08-14T07:47:31.970801+00:00,static_memory,RecipeDeleteSingleRecipe,3,1524830436,False,0,0.4444444444444444,10,176.6297173500061,failure,259744,258485,1259,,Delete the following recipes from Broccoli app: Sweet Potato and Black Bean Tacos.
+2026-08-14T07:49:50.848533+00:00,static_memory,RecipeDeleteSingleRecipe,4,2254776450,True,1,0.47368421052631576,6,134.6474106311798,success,131211,130710,501,,Delete the following recipes from Broccoli app: Spinach and Feta Stuffed Chicken.
+2026-08-14T07:52:47.589118+00:00,static_memory,RecipeDeleteSingleRecipe,5,2644700427,False,0,0.45,10,172.11494708061218,failure,263819,262953,866,,Delete the following recipes from Broccoli app: Greek Salad Pita Pockets.
+2026-08-14T08:00:55.605601+00:00,static_memory,RecipeDeleteSingleWithRecipeWithNoise,1,1967173552,False,0,0.42857142857142855,20,483.72271609306335,failure,516535,514176,2359,,Delete the following recipes from Broccoli app: Classic Margherita Pizza.
+2026-08-14T08:10:53.005182+00:00,static_memory,RecipeDeleteSingleWithRecipeWithNoise,2,3206931563,False,0,0.4090909090909091,20,592.1690199375153,failure,698494,695817,2677,,Delete the following recipes from Broccoli app: Moroccan Chickpea Stew.
+2026-08-14T08:17:08.209166+00:00,static_memory,RecipeDeleteSingleWithRecipeWithNoise,3,2974467732,False,0,0.391304347826087,20,365.74445724487305,failure,495645,492954,2691,,Delete the following recipes from Broccoli app: Spinach and Feta Stuffed Chicken.
+2026-08-14T08:23:22.284602+00:00,static_memory,RecipeDeleteSingleWithRecipeWithNoise,4,2021627288,False,0,0.375,20,367.5499186515808,failure,495000,492437,2563,,Delete the following recipes from Broccoli app: Pan-Seared Salmon with Quinoa.
+2026-08-14T08:29:28.751726+00:00,static_memory,RecipeDeleteSingleWithRecipeWithNoise,5,240511635,False,0,0.36,20,357.0500810146332,failure,495212,492801,2411,,Delete the following recipes from Broccoli app: Vegetarian Chili.
+2026-08-14T08:32:39.217938+00:00,static_memory,AudioRecorderRecordAudio,1,2842804519,False,0,0.34615384615384615,12,188.56665778160095,failure,288280,287160,1120,,Record an audio clip using Audio Recorder app and save it.
+2026-08-14T08:35:40.218840+00:00,static_memory,AudioRecorderRecordAudio,2,1818871161,False,0,0.3333333333333333,12,179.18753957748413,failure,292230,291218,1012,,Record an audio clip using Audio Recorder app and save it.
+2026-08-14T08:38:03.410157+00:00,static_memory,AudioRecorderRecordAudio,3,4172089815,True,1,0.35714285714285715,9,141.51270651817322,success,206347,205614,733,,Record an audio clip using Audio Recorder app and save it.
+2026-08-14T08:39:35.447647+00:00,static_memory,AudioRecorderRecordAudio,4,293270524,True,1,0.3793103448275862,4,90.70774245262146,success,84117,83735,382,,Record an audio clip using Audio Recorder app and save it.
+2026-08-14T08:41:01.971152+00:00,static_memory,AudioRecorderRecordAudio,5,1055624103,True,1,0.4,4,85.22363591194153,success,85730,85337,393,,Record an audio clip using Audio Recorder app and save it.
+2026-08-14T08:46:59.469243+00:00,static_memory,BrowserDraw,1,1466251684,False,0,0.3870967741935484,20,342.20749258995056,failure,357469,355034,2435,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-14T08:53:54.786876+00:00,static_memory,BrowserDraw,2,3173652066,False,0,0.375,20,409.50086665153503,failure,376582,375297,1285,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-14T09:01:08.798904+00:00,static_memory,BrowserDraw,3,3045298826,False,0,0.36363636363636365,20,425.53805780410767,failure,459805,458375,1430,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-14T09:08:23.268785+00:00,static_memory,BrowserDraw,4,1852433653,False,0,0.35294117647058826,20,428.6893401145935,failure,460135,458713,1422,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-14T09:13:32.280128+00:00,static_memory,BrowserDraw,5,2480810279,False,0,0.34285714285714286,20,300.35530710220337,failure,461539,459344,2195,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-14T09:15:59.261166+00:00,static_memory,CameraTakePhoto,1,3729977769,False,0,0.3333333333333333,10,144.27643513679504,failure,196422,195594,828,,Take one photo.
+2026-08-14T09:18:05.839011+00:00,static_memory,CameraTakePhoto,2,4046708894,False,0,0.32432432432432434,10,124.36406874656677,failure,161418,159523,1895,,Take one photo.
+2026-08-14T09:20:21.142199+00:00,static_memory,CameraTakePhoto,3,332350226,False,0,0.3157894736842105,10,133.2248933315277,failure,148343,145943,2400,,Take one photo.
+2026-08-14T09:22:53.450171+00:00,static_memory,CameraTakePhoto,4,2463937979,False,0,0.3076923076923077,10,150.2256109714508,failure,152999,149671,3328,,Take one photo.
+2026-08-14T09:25:04.743260+00:00,static_memory,CameraTakePhoto,5,1465436654,False,0,0.3,10,129.24109816551208,failure,155918,153523,2395,,Take one photo.
+2026-08-14T09:29:12.912173+00:00,static_memory,ContactsAddContact,1,1155463587,False,0,0.2926829268292683,12,246.18733382225037,failure,244286,240275,4011,,Create a new contact for Hugo Pereira. Their number is +13920741751.
+2026-08-14T09:33:30.394734+00:00,static_memory,ContactsAddContact,2,1324763856,False,0,0.2857142857142857,12,255.44683074951172,failure,240003,237115,2888,,Create a new contact for Mariam Chen. Their number is +18332445674.
+2026-08-14T09:36:36.675504+00:00,static_memory,ContactsAddContact,3,596600690,False,0,0.27906976744186046,12,184.40858435630798,failure,276109,274751,1358,,Create a new contact for Isla Martin. Their number is +15256606183.
+2026-08-14T09:39:45.730368+00:00,static_memory,ContactsAddContact,4,160809665,False,0,0.2727272727272727,12,187.16299295425415,failure,302215,301164,1051,,Create a new contact for Sophie Ahmed. Their number is +11555474287.
+2026-08-14T09:43:45.920148+00:00,static_memory,ContactsAddContact,5,1465379013,False,0,0.26666666666666666,12,238.24448156356812,failure,299361,298083,1278,,Create a new contact for Sophia Zhang. Their number is +17890682839.
+2026-08-14T09:48:29.118772+00:00,static_memory,ExpenseAddSingle,1,2452300024,False,0,0.2608695652173913,12,279.62530851364136,failure,359014,356321,2693,,"Add the following expenses into the pro expense:
+Expense: Therapy Sessions
+ amount_dollars: $307.01
+ category_name: Health Care
+ note: I may repeat this
+"
+2026-08-14T09:56:12.496322+00:00,static_memory,ExpenseAddSingle,2,597338444,False,0,0.2553191489361702,12,459.1265661716461,failure,297686,296222,1464,,"Add the following expenses into the pro expense:
+Expense: Health Insurance
+ amount_dollars: $317.47
+ category_name: Health Care
+ note: I may repeat this
+"
+2026-08-14T10:00:32.565670+00:00,static_memory,ExpenseAddSingle,3,717121028,False,0,0.25,12,256.3382456302643,failure,262979,258948,4031,,"Add the following expenses into the pro expense:
+name|amount_dollars|category_name|note
+Sportswear|$418.57|Clothes|A need"
+2026-08-14T10:06:54.477941+00:00,static_memory,ExpenseAddSingle,4,1466132497,False,0,0.24489795918367346,12,378.12146377563477,failure,331416,328718,2698,,"Add the following expenses into the pro expense:
+Expense: Seminars
+ amount_dollars: $441.21
+ category_name: Education
+ note: I may repeat this
+"
+2026-08-14T10:11:31.635500+00:00,static_memory,ExpenseAddSingle,5,25538047,False,0,0.24,12,270.30019998550415,failure,321978,320542,1436,,"Add the following expenses into the pro expense:
+name|amount_dollars|category_name|note
+Shirt Purchase|$271.64|Clothes|Paid by card"
+2026-08-14T10:20:56.023616+00:00,static_memory,FilesDeleteFile,1,1206130099,False,0,0.23529411764705882,22,556.7436666488647,failure,641076,638877,2199,,Delete the file q2a8_fancy_banana.mp3 from the Android filesystem located in the Notifications folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T10:26:20.308562+00:00,static_memory,FilesDeleteFile,2,3328094535,False,0,0.23076923076923078,22,317.7680232524872,failure,429598,427417,2181,,Delete the file RtPP_cool_nest.mp3 from the Android filesystem located in the Ringtones folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T10:31:40.517850+00:00,static_memory,FilesDeleteFile,3,4231481284,False,0,0.22641509433962265,22,315.94190216064453,failure,583077,581104,1973,,Delete the file wdv5_ready_unicorn.mp3 from the Android filesystem located in the Ringtones folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T10:39:25.385365+00:00,static_memory,FilesDeleteFile,4,801569313,False,0,0.2222222222222222,22,459.8493764400482,failure,485152,482654,2498,,Delete the file copy_calm_yacht.mp4 from the Android filesystem located in the Movies folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T10:47:25.491311+00:00,static_memory,FilesDeleteFile,5,3008059121,False,0,0.21818181818181817,22,473.86835050582886,failure,600752,598539,2213,,Delete the file 2023_02_28_strong_yacht.jpg from the Android filesystem located in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T10:50:21.352528+00:00,static_memory,MarkorCreateFolder,1,3163095783,False,0,0.21428571428571427,10,173.90827083587646,failure,255510,254231,1279,,Create a new folder in Markor named folder_20260814_151301.
+2026-08-14T10:53:25.069024+00:00,static_memory,MarkorCreateFolder,2,2214371470,False,0,0.21052631578947367,10,181.2950360774994,failure,239179,238130,1049,,Create a new folder in Markor named folder_20260814_151301.
+2026-08-14T10:56:29.802486+00:00,static_memory,MarkorCreateFolder,3,1649268522,False,0,0.20689655172413793,10,182.3367898464203,failure,243048,241993,1055,,Create a new folder in Markor named folder_20260814_151301.
+2026-08-14T10:59:14.414891+00:00,static_memory,MarkorCreateFolder,4,2384214437,False,0,0.2033898305084746,10,162.61104583740234,failure,272405,271325,1080,,Create a new folder in Markor named folder_20260814_151301.
+2026-08-14T11:02:12.034307+00:00,static_memory,MarkorCreateFolder,5,4123091621,False,0,0.2,10,175.5362901687622,failure,268998,267651,1347,,Create a new folder in Markor named folder_20260814_151301.
+2026-08-14T11:03:29.892985+00:00,static_memory,NotesIsTodo,1,2511191301,False,0,0.19672131147540983,2,72.65123176574707,failure,41470,41245,225,,Is the note titled 'To-Do List' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-14T11:05:03.715959+00:00,static_memory,NotesIsTodo,2,2010807541,False,0,0.1935483870967742,3,88.51381993293762,failure,69204,68904,300,,Is the note titled 'Research Notes' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-14T11:06:31.249039+00:00,static_memory,NotesIsTodo,3,3492714222,False,0,0.19047619047619047,3,82.19568014144897,failure,69895,69613,282,,Is the note titled 'Budget Spreadsheet' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-14T11:12:42.170542+00:00,static_memory,NotesIsTodo,4,2561353086,False,0,0.1875,10,364.81000542640686,failure,271285,270410,875,,Is the note titled 'Travel Itinerary' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-14T11:14:12.046340+00:00,static_memory,NotesIsTodo,5,1311516886,False,0,0.18461538461538463,3,84.62697267532349,failure,72970,72678,292,,Is the note titled 'Daily Journal' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-14T11:19:56.554673+00:00,static_memory,OsmAndFavorite,1,2436087218,False,0,0.18181818181818182,13,341.61328625679016,failure,354231,353139,1092,,"Add a favorite location marker for 47.1303814, 9.5930117 in the OsmAnd maps app."
+2026-08-14T11:25:22.220321+00:00,static_memory,OsmAndFavorite,2,3101813186,False,0,0.1791044776119403,13,323.2405004501343,failure,401062,399931,1131,,"Add a favorite location marker for Malbun, Liechtenstein in the OsmAnd maps app."
+2026-08-14T11:31:06.414154+00:00,static_memory,OsmAndFavorite,3,3726621214,False,0,0.17647058823529413,13,341.89640522003174,failure,406579,405021,1558,,"Add a favorite location marker for 47.23976, 9.5262837 in the OsmAnd maps app."
+2026-08-14T11:37:09.792180+00:00,static_memory,OsmAndFavorite,4,2305695353,False,0,0.17391304347826086,13,360.8039469718933,failure,400347,398913,1434,,"Add a favorite location marker for Malbun, Liechtenstein in the OsmAnd maps app."
+2026-08-14T11:41:08.104376+00:00,static_memory,OsmAndFavorite,5,460686691,False,0,0.17142857142857143,13,235.92615222930908,failure,351522,350213,1309,,"Add a favorite location marker for 47.1858882, 9.5452201 in the OsmAnd maps app."
+2026-08-14T11:54:46.970948+00:00,static_memory,RetroPlayingQueue,1,145116843,False,0,0.16901408450704225,32,811.3971672058105,failure,1043346,1040194,3152,,"Add the following songs, in order, Through the Storm, Hidden Paths, Forever Young, Whispers of the Past, Heartbeat Away to my playing queue in Retro music."
+2026-08-14T12:09:41.826911+00:00,static_memory,RetroPlayingQueue,2,2944655069,False,0,0.16666666666666666,32,884.1508369445801,failure,1081927,1078853,3074,,"Add the following songs, in order, Forever Young, City of Stars, Twilight Calling, Lost in the Echo, Return to Paradise to my playing queue in Retro music."
+2026-08-14T12:26:32.475121+00:00,static_memory,RetroPlayingQueue,3,3318927303,False,0,0.1643835616438356,32,1003.014458656311,failure,1011656,1006723,4933,,"Add the following songs, in order, Waves of Change, Forever Young, Whispering Wind to my playing queue in Retro music."
+2026-08-14T12:35:38.460271+00:00,static_memory,RetroPlayingQueue,4,686295404,False,0,0.16216216216216217,32,532.0575404167175,failure,651403,648074,3329,,"Add the following songs, in order, Under the Sky, Chasing Shadows, Whispering Wind, City of Stars, Shadows of Time to my playing queue in Retro music."
+2026-08-14T12:44:39.939762+00:00,static_memory,RetroPlayingQueue,5,3958545372,False,0,0.16,32,530.5331492424011,failure,676360,673160,3200,,"Add the following songs, in order, Shadows of Time, Beyond the Horizon, Orbiting Stars, Moonlight Sonata, Night Drive to my playing queue in Retro music."
+2026-08-14T12:54:29.848061+00:00,static_memory,SimpleCalendarAddOneEventTomorrow,1,3213291567,False,0,0.15789473684210525,34,584.3060772418976,failure,775772,766644,9128,,"In Simple Calendar Pro, create a calendar event for tomorrow at 20h with the title 'Call with the Team' and the description 'We will prepare for team roles.'. The event should last for 30 mins."
+2026-08-14T13:05:34.466629+00:00,static_memory,SimpleCalendarAddOneEventTomorrow,2,1366597145,False,0,0.15584415584415584,34,659.7467999458313,failure,829549,826434,3115,,"In Simple Calendar Pro, create a calendar event for tomorrow at 3h with the title 'Review session for Campaign' and the description 'We will understand contract details. Please bring relevant documents.'. The event should last for 15 mins."
+2026-08-14T13:29:49.990104+00:00,static_memory,SimpleCalendarAddOneEventTomorrow,3,1424567933,False,0,0.15384615384615385,34,1449.6351504325867,failure,880553,877634,2919,,"In Simple Calendar Pro, create a calendar event for tomorrow at 0h with the title 'Review session for Annual Report' and the description 'We will understand business objectives. Remember to confirm attendance.'. The event should last for 30 mins."
+2026-08-14T13:46:55.488144+00:00,static_memory,SimpleCalendarAddOneEventTomorrow,4,1606963305,False,0,0.1518987341772152,34,1020.0952339172363,failure,1229397,1219659,9738,,"In Simple Calendar Pro, create a calendar event for tomorrow at 13h with the title 'Meeting with Dr. Smith' and the description 'We will prepare for team roles. Snacks will be provided.'. The event should last for 15 mins."
+2026-08-14T14:02:19.812353+00:00,static_memory,SimpleCalendarAddOneEventTomorrow,5,2029794570,False,0,0.15,34,915.4706494808197,failure,1090962,1087035,3927,,"In Simple Calendar Pro, create a calendar event for tomorrow at 7h with the title 'Appointment for Annual Report' and the description 'We will prepare for software updates.'. The event should last for 60 mins."
+2026-08-14T14:07:49.143543+00:00,static_memory,SimpleDrawProCreateDrawing,1,3242452795,False,0,0.14814814814814814,18,323.63194274902344,failure,327212,324972,2240,,Create a new drawing in Simple Draw Pro. Name it adipiscing_fair_jelly_final.png. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T14:13:00.425512+00:00,static_memory,SimpleDrawProCreateDrawing,2,230228502,False,0,0.14634146341463414,18,305.6421568393707,failure,362987,359029,3958,,Create a new drawing in Simple Draw Pro. Name it amet_tough_mouse_YjdS.svg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T14:20:38.877334+00:00,static_memory,SimpleDrawProCreateDrawing,3,4285284036,False,0,0.14457831325301204,18,453.94335770606995,failure,572092,570084,2008,,Create a new drawing in Simple Draw Pro. Name it consectetur_aKj4_pretty_pig.jpg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T14:29:03.561123+00:00,static_memory,SimpleDrawProCreateDrawing,4,1251953433,False,0,0.14285714285714285,18,499.7844603061676,failure,383549,382023,1526,,Create a new drawing in Simple Draw Pro. Name it adipiscing_GiPn_good_dog.svg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T14:36:58.576535+00:00,static_memory,SimpleDrawProCreateDrawing,5,315159936,True,1,0.15294117647058825,18,466.02152705192566,success,571900,569888,2012,,Create a new drawing in Simple Draw Pro. Name it elit_sharp_elephant_gi4h.jpg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-14T14:42:27.110635+00:00,static_memory,SimpleSmsReply,1,503761173,False,0,0.1511627906976744,12,326.322039604187,failure,317935,316583,1352,,Reply to +18407874306 with message: Yoga class every Tuesday and Thursday at 6 PM. in Simple SMS Messenger
+2026-08-14T14:45:21.584814+00:00,static_memory,SimpleSmsReply,2,,,,0.1511627906976744,nan,174.45035815238953,exception,146713,145860,853,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 122, in execute_command
+    cmd_output = subprocess.check_output(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'dumpsys', 'input', '|', 'grep', 'physicalFrame']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 81, in run_episode
+    result = agent.step(goal)
+             ^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/dms/androidworld_agent.py"", line 336, in step
+    before = _observe(self.env, before_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/dms/androidworld_agent.py"", line 173, in _observe
+    env.physical_frame_boundary,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/interface.py"", line 365, in physical_frame_boundary
+    return adb_utils.get_physical_frame_boundary(self.controller)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 1653, in get_physical_frame_boundary
+    response = issue_generic_request(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 577, in issue_generic_request
+    response = env.execute_adb_call(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 150, in execute_adb_call
+    return self._coordinator.execute_adb_call(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 180, in execute_adb_call
+    return self._adb_call_parser.parse(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 111, in parse
+    return self._handlers[command_type](request, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 765, in _handle_generic
+    response, command_output = self._execute_command(
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 81, in _execute_command
+    command_output = self._adb_controller.execute_command(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 147, in execute_command
+    raise errors.AdbControllerError(
+android_env.components.errors.AdbControllerError: Error executing adb command: [adb -P 5037 -s emulator-5554 shell dumpsys input | grep physicalFrame]
+Caused by: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'dumpsys', 'input', '|', 'grep', 'physicalFrame']' returned non-zero exit status 1.
+adb stdout: [b'adb.exe: device offline\r\n']
+adb stderr: [None]
+",Reply to +10054823973 with message: Pick up groceries: Milk and Bread and Apples. in Simple SMS Messenger
+2026-08-14T14:45:26.492828+00:00,static_memory,SimpleSmsReply,3,,,,0.1511627906976744,nan,4.86332368850708,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 122, in execute_command
+    cmd_output = subprocess.check_output(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 294, in _run_task
+    task.initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/sms.py"", line 122, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/common_validators/sms_validators.py"", line 235, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 146, in initialize_task
+    self.initialize_device_time(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 139, in initialize_device_time
+    datetime_utils.setup_datetime(env.controller)
+  File ""/home/suyichn/projects/android_world/android_world/utils/datetime_utils.py"", line 138, in setup_datetime
+    adb_utils.set_root_if_needed(env)
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 1764, in set_root_if_needed
+    response = issue_generic_request(['shell', 'whoami'], env, timeout_sec)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 577, in issue_generic_request
+    response = env.execute_adb_call(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 150, in execute_adb_call
+    return self._coordinator.execute_adb_call(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 180, in execute_adb_call
+    return self._adb_call_parser.parse(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 111, in parse
+    return self._handlers[command_type](request, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 765, in _handle_generic
+    response, command_output = self._execute_command(
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 81, in _execute_command
+    command_output = self._adb_controller.execute_command(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 147, in execute_command
+    raise errors.AdbControllerError(
+android_env.components.errors.AdbControllerError: Error executing adb command: [adb -P 5037 -s emulator-5554 shell whoami]
+Caused by: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+adb stdout: [b'adb.exe: device offline\r\n']
+adb stderr: [None]
+",Reply to +19704943353 with message: Ignorance is bliss. in Simple SMS Messenger
+2026-08-14T14:45:31.279661+00:00,static_memory,SimpleSmsReply,4,,,,0.1511627906976744,nan,4.757281541824341,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 122, in execute_command
+    cmd_output = subprocess.check_output(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 294, in _run_task
+    task.initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/sms.py"", line 122, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/common_validators/sms_validators.py"", line 235, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 146, in initialize_task
+    self.initialize_device_time(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 139, in initialize_device_time
+    datetime_utils.setup_datetime(env.controller)
+  File ""/home/suyichn/projects/android_world/android_world/utils/datetime_utils.py"", line 138, in setup_datetime
+    adb_utils.set_root_if_needed(env)
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 1764, in set_root_if_needed
+    response = issue_generic_request(['shell', 'whoami'], env, timeout_sec)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 577, in issue_generic_request
+    response = env.execute_adb_call(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 150, in execute_adb_call
+    return self._coordinator.execute_adb_call(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 180, in execute_adb_call
+    return self._adb_call_parser.parse(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 111, in parse
+    return self._handlers[command_type](request, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 765, in _handle_generic
+    response, command_output = self._execute_command(
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 81, in _execute_command
+    command_output = self._adb_controller.execute_command(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 147, in execute_command
+    raise errors.AdbControllerError(
+android_env.components.errors.AdbControllerError: Error executing adb command: [adb -P 5037 -s emulator-5554 shell whoami]
+Caused by: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+adb stdout: [b'adb.exe: device offline\r\n']
+adb stderr: [None]
+",Reply to +12889290955 with message: Pick up groceries: Milk and Bread and Apples. in Simple SMS Messenger
+2026-08-14T14:47:58.716243+00:00,static_memory,SimpleSmsReply,5,2875320595,True,1,0.16091954022988506,3,144.64991736412048,success,78694,78415,279,,Reply to +16623739695 with message: You can't make an omelette without breaking a few eggs. in Simple SMS Messenger
+2026-08-14T14:49:27.086644+00:00,static_memory,SportsTrackerActivitiesCountForWeek,1,3624822263,False,0,0.1590909090909091,2,85.83858060836792,failure,41170,40720,450,,How many running activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-14T14:56:17.414639+00:00,static_memory,SportsTrackerActivitiesCountForWeek,2,1954319436,False,0,0.15730337078651685,10,403.70175981521606,failure,335513,331514,3999,,How many cycling activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-14T15:03:08.145680+00:00,static_memory,SportsTrackerActivitiesCountForWeek,3,4004703764,False,0,0.15555555555555556,10,407.4430453777313,failure,285517,284160,1357,,How many climbing activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-14T15:16:33.361151+00:00,static_memory,SportsTrackerActivitiesCountForWeek,4,,,,0.15555555555555556,nan,805.1925837993622,exception,30413,30280,133,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/simulators/emulator/emulator_simulator.py"", line 171, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/simulators/emulator/emulator_simulator.py"", line 453, in _get_screenshot_impl
+    image_proto = self._emulator_stub.getScreenshot(self._image_format)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/grpc/_channel.py"", line 1168, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/grpc/_channel.py"", line 999, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.FAILED_PRECONDITION
+	details = ""The guest has not posted new frame yet""
+	debug_error_string = ""FAILED_PRECONDITION:The guest has not posted new frame yet""
+>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 81, in run_episode
+    result = agent.step(goal)
+             ^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/dms/androidworld_agent.py"", line 335, in step
+    before_state = self.get_post_transition_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/agents/base_agent.py"", line 116, in get_post_transition_state
+    return self.env.get_state(wait_to_stabilize=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/interface.py"", line 295, in get_state
+    return self._get_state()
+           ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/interface.py"", line 241, in _get_state
+    return _process_timestep(self.controller.step(_get_no_op_action()))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 43, in step
+    return self._process_timestep(self._env.step(action))
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/a11y_grpc_wrapper.py"", line 411, in step
+    timestep = self._env.step(action)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 98, in step
+    timestep = self._coordinator.rl_step(action)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 239, in rl_step
+    simulator_signals = self._gather_simulator_signals()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 263, in _gather_simulator_signals
+    'pixels': self._simulator.get_screenshot(),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/simulators/base_simulator.py"", line 158, in get_screenshot
+    return self._get_screenshot_impl()  # Sync mode.
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/simulators/emulator/emulator_simulator.py"", line 177, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/simulators/emulator/emulator_simulator.py"", line 453, in _get_screenshot_impl
+    image_proto = self._emulator_stub.getScreenshot(self._image_format)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/grpc/_channel.py"", line 1168, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/grpc/_channel.py"", line 999, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.FAILED_PRECONDITION
+	details = ""The guest has not posted new frame yet""
+	debug_error_string = ""FAILED_PRECONDITION:The guest has not posted new frame yet""
+>
+",How many climbing activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-14T15:16:38.030881+00:00,static_memory,SportsTrackerActivitiesCountForWeek,5,,,,0.15555555555555556,nan,4.644489526748657,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 122, in execute_command
+    cmd_output = subprocess.check_output(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 294, in _run_task
+    task.initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/information_retrieval/information_retrieval.py"", line 83, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 146, in initialize_task
+    self.initialize_device_time(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 139, in initialize_device_time
+    datetime_utils.setup_datetime(env.controller)
+  File ""/home/suyichn/projects/android_world/android_world/utils/datetime_utils.py"", line 138, in setup_datetime
+    adb_utils.set_root_if_needed(env)
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 1764, in set_root_if_needed
+    response = issue_generic_request(['shell', 'whoami'], env, timeout_sec)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 577, in issue_generic_request
+    response = env.execute_adb_call(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 150, in execute_adb_call
+    return self._coordinator.execute_adb_call(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 180, in execute_adb_call
+    return self._adb_call_parser.parse(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 111, in parse
+    return self._handlers[command_type](request, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 765, in _handle_generic
+    response, command_output = self._execute_command(
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 81, in _execute_command
+    command_output = self._adb_controller.execute_command(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 147, in execute_command
+    raise errors.AdbControllerError(
+android_env.components.errors.AdbControllerError: Error executing adb command: [adb -P 5037 -s emulator-5554 shell whoami]
+Caused by: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+adb stdout: [b'adb.exe: device offline\r\n']
+adb stderr: [None]
+",How many running activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-14T15:16:42.800017+00:00,static_memory,SystemWifiTurnOn,1,,,,0.15555555555555556,nan,4.729848384857178,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 122, in execute_command
+    cmd_output = subprocess.check_output(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 294, in _run_task
+    task.initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/system.py"", line 203, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 146, in initialize_task
+    self.initialize_device_time(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 139, in initialize_device_time
+    datetime_utils.setup_datetime(env.controller)
+  File ""/home/suyichn/projects/android_world/android_world/utils/datetime_utils.py"", line 138, in setup_datetime
+    adb_utils.set_root_if_needed(env)
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 1764, in set_root_if_needed
+    response = issue_generic_request(['shell', 'whoami'], env, timeout_sec)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 577, in issue_generic_request
+    response = env.execute_adb_call(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 150, in execute_adb_call
+    return self._coordinator.execute_adb_call(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 180, in execute_adb_call
+    return self._adb_call_parser.parse(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 111, in parse
+    return self._handlers[command_type](request, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 765, in _handle_generic
+    response, command_output = self._execute_command(
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 81, in _execute_command
+    command_output = self._adb_controller.execute_command(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 147, in execute_command
+    raise errors.AdbControllerError(
+android_env.components.errors.AdbControllerError: Error executing adb command: [adb -P 5037 -s emulator-5554 shell whoami]
+Caused by: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+adb stdout: [b'adb.exe: device offline\r\n']
+adb stderr: [None]
+",Turn wifi on.
+2026-08-14T15:16:50.497590+00:00,static_memory,SystemWifiTurnOn,2,,,,0.15555555555555556,nan,7.6513214111328125,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 122, in execute_command
+    cmd_output = subprocess.check_output(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/subprocess.py"", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 294, in _run_task
+    task.initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/system.py"", line 203, in initialize_task
+    super().initialize_task(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 146, in initialize_task
+    self.initialize_device_time(env)
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/task_eval.py"", line 139, in initialize_device_time
+    datetime_utils.setup_datetime(env.controller)
+  File ""/home/suyichn/projects/android_world/android_world/utils/datetime_utils.py"", line 138, in setup_datetime
+    adb_utils.set_root_if_needed(env)
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 1764, in set_root_if_needed
+    response = issue_generic_request(['shell', 'whoami'], env, timeout_sec)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/env/adb_utils.py"", line 577, in issue_generic_request
+    response = env.execute_adb_call(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/wrappers/base_wrapper.py"", line 101, in execute_adb_call
+    return self._env.execute_adb_call(adb_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/environment.py"", line 150, in execute_adb_call
+    return self._coordinator.execute_adb_call(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/coordinator.py"", line 180, in execute_adb_call
+    return self._adb_call_parser.parse(call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 111, in parse
+    return self._handlers[command_type](request, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 765, in _handle_generic
+    response, command_output = self._execute_command(
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_call_parser.py"", line 81, in _execute_command
+    command_output = self._adb_controller.execute_command(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/miniconda3/envs/android_world/lib/python3.11/site-packages/android_env/components/adb_controller.py"", line 147, in execute_command
+    raise errors.AdbControllerError(
+android_env.components.errors.AdbControllerError: Error executing adb command: [adb -P 5037 -s emulator-5554 shell whoami]
+Caused by: Command '['/home/suyichn/Android/Sdk/platform-tools/adb', '-P', '5037', '-s', 'emulator-5554', 'shell', 'whoami']' returned non-zero exit status 1.
+adb stdout: [b'adb.exe: device offline\r\n']
+adb stderr: [None]
+",Turn wifi on.
+2026-08-14T15:17:59.773490+00:00,static_memory,SystemWifiTurnOn,3,3823545222,True,1,0.16483516483516483,1,65.31332063674927,success,,,,,Turn wifi on.
+2026-08-14T15:19:46.883385+00:00,static_memory,SystemWifiTurnOn,4,2261494467,False,0,0.16304347826086957,10,101.70503878593445,failure,,,,,Turn wifi on.
+2026-08-14T15:21:38.541498+00:00,static_memory,SystemWifiTurnOn,5,2101599970,False,0,0.16129032258064516,10,109.22381114959717,failure,,,,,Turn wifi on.
+2026-08-14T15:23:30.007191+00:00,static_memory,TasksDueOnDate,1,96649108,False,0,0.1595744680851064,10,107.8475570678711,failure,,,,,"What tasks do I have due October 24 2023 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-14T15:25:20.405872+00:00,static_memory,TasksDueOnDate,2,1732491667,False,0,0.15789473684210525,10,106.74434399604797,failure,,,,,"What tasks do I have due October 15 2023 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-14T15:27:11.296355+00:00,static_memory,TasksDueOnDate,3,3913915727,False,0,0.15625,10,107.23081421852112,failure,,,,,"What tasks do I have due October 28 2023 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-14T15:29:03.152973+00:00,static_memory,TasksDueOnDate,4,2694246789,False,0,0.15463917525773196,10,108.20144486427307,failure,,,,,"What tasks do I have due October 26 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-14T15:30:56.613020+00:00,static_memory,TasksDueOnDate,5,2765577585,False,0,0.15306122448979592,10,109.8104407787323,failure,,,,,"What tasks do I have due October 17 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-14T15:36:10.308361+00:00,static_memory,VlcCreatePlaylist,1,3947792439,False,0,0.15151515151515152,28,301.4788694381714,failure,,,,,"Create a playlist titled ""Ultimate Fails Series"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: highlight_41_4K_2023_03_30.mp4, scene_68_4K_copy.mp4"
+2026-08-14T15:41:21.199038+00:00,static_memory,VlcCreatePlaylist,2,871812965,False,0,0.15,28,303.65168833732605,failure,,,,,"Create a playlist titled ""Mystery and Thrills Ultimate Collection"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: 2023_04_20_moment_42_4K.mp4, recording_15_raw_final.mp4"
+2026-08-14T15:46:30.596201+00:00,static_memory,VlcCreatePlaylist,3,314102247,False,0,0.1485148514851485,28,300.09477519989014,failure,,,,,"Create a playlist titled ""Comedy Series"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: 2023_02_13_footage_40_raw.mp4, 2023_08_17_episode_41_raw.mp4, episode_33_export_2023_07_13.mp4, copy_highlight_91_raw.mp4"
+2026-08-14T15:51:36.077831+00:00,static_memory,VlcCreatePlaylist,4,1092325361,False,0,0.14705882352941177,28,296.3007507324219,failure,,,,,"Create a playlist titled ""Road Trips Essentials"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: footage_78_export_2023_02_08.mp4, aXM7_moment_88_HD.mp4"
+2026-08-14T15:56:42.064164+00:00,static_memory,VlcCreatePlaylist,5,564957062,False,0,0.14563106796116504,28,292.58109068870544,failure,,,,,"Create a playlist titled ""How To Favorites"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: highlight_68_HD_final.mp4, highlight_10_raw_js2b.mp4"

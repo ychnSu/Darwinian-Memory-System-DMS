@@ -1,0 +1,152 @@
+{
+  "name": "mini-benchmark-v1",
+  "description": "Compact AndroidWorld benchmark for DMS reproduction. It uses 5 random instances per task to match the paper-style five rounds, prioritizes easy/medium tasks, covers 20 app/module groups, and includes all tasks listed in E:/??/2025.8.12 baselineA??.txt.",
+  "source": {
+    "official_metadata": "https://github.com/google-research/android_world/blob/main/android_world/task_metadata.json",
+    "required_success_log": "E:/??/2025.8.12 baselineA??.txt"
+  },
+  "suite_family": "android_world",
+  "n_task_combinations": 5,
+  "task_random_seed": 30,
+  "task_difficulty": "",
+  "selection_policy": [
+    "Prefer official easy tasks; use medium only where no easy single-app representative is available.",
+    "Preserve declared task order.",
+    "Include every task that baselineA already succeeded on in the supplied txt file.",
+    "Use AndroidWorld evaluator for global success; no DMS verifier for PA-Lite/static baselines."
+  ],
+  "tasks": [
+    {
+      "task_name": "OpenAppTaskEval",
+      "app_group": "system/open-app",
+      "difficulty": "easy",
+      "reason": "required_from_success_txt"
+    },
+    {
+      "task_name": "ClockStopWatchRunning",
+      "app_group": "clock",
+      "difficulty": "easy",
+      "reason": "required_from_success_txt"
+    },
+    {
+      "task_name": "ClockStopWatchPausedVerify",
+      "app_group": "clock",
+      "difficulty": "easy",
+      "reason": "required_from_success_txt"
+    },
+    {
+      "task_name": "RecipeDeleteSingleRecipe",
+      "app_group": "broccoli app",
+      "difficulty": "easy",
+      "reason": "required_from_success_txt"
+    },
+    {
+      "task_name": "RecipeDeleteSingleWithRecipeWithNoise",
+      "app_group": "broccoli app",
+      "difficulty": "easy",
+      "reason": "required_from_success_txt"
+    },
+    {
+      "task_name": "AudioRecorderRecordAudio",
+      "app_group": "audio recorder",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "BrowserDraw",
+      "app_group": "chrome/browser",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "CameraTakePhoto",
+      "app_group": "camera",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "ContactsAddContact",
+      "app_group": "contacts",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "ExpenseAddSingle",
+      "app_group": "pro expense",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "FilesDeleteFile",
+      "app_group": "files",
+      "difficulty": "medium",
+      "reason": "official_medium"
+    },
+    {
+      "task_name": "MarkorCreateFolder",
+      "app_group": "markor",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "NotesIsTodo",
+      "app_group": "joplin",
+      "difficulty": "easy",
+      "reason": "official_easy_information_retrieval"
+    },
+    {
+      "task_name": "OsmAndFavorite",
+      "app_group": "osmand",
+      "difficulty": "medium",
+      "reason": "official_medium"
+    },
+    {
+      "task_name": "RetroPlayingQueue",
+      "app_group": "retro music",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "SimpleCalendarAddOneEventTomorrow",
+      "app_group": "simple calendar pro",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "SimpleDrawProCreateDrawing",
+      "app_group": "simple draw pro",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "SimpleSmsReply",
+      "app_group": "simple sms messenger",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "SportsTrackerActivitiesCountForWeek",
+      "app_group": "open tracks sports tracker",
+      "difficulty": "easy",
+      "reason": "official_easy_information_retrieval"
+    },
+    {
+      "task_name": "SystemWifiTurnOn",
+      "app_group": "settings",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "TasksDueOnDate",
+      "app_group": "tasks",
+      "difficulty": "easy",
+      "reason": "official_easy"
+    },
+    {
+      "task_name": "VlcCreatePlaylist",
+      "app_group": "vlc",
+      "difficulty": "medium",
+      "reason": "official_medium"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+timestamp_utc,agent_name,task_template,k,seed,success,SA,cumulative_SA,episode_length,run_time_s,status,token_total,token_prompt,token_completion,exception_info,goal
+2026-08-13T02:19:05.274704+00:00,zero_shot,OpenAppTaskEval,1,3755248659,True,1,1.0,3,41.44592046737671,success,63497,63274,223,,Open the contacts app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-13T02:19:30.780735+00:00,zero_shot,OpenAppTaskEval,2,3608958401,True,1,1.0,1,23.84532141685486,success,17397,17348,49,,Open the contacts app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-13T02:19:52.854167+00:00,zero_shot,OpenAppTaskEval,3,2349914223,True,1,1.0,1,17.614344596862793,success,17397,17348,49,,Open the camera app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-13T02:20:14.283550+00:00,zero_shot,OpenAppTaskEval,4,1306832883,True,1,1.0,1,19.869776010513306,success,17397,17348,49,,Open the camera app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-13T02:20:37.516813+00:00,zero_shot,OpenAppTaskEval,5,3251767968,True,1,1.0,1,21.785951614379883,success,17416,17358,58,,Open the dialer app. Clear any pop-ups that may appear by granting all permissions that are required.
+2026-08-13T02:21:33.891034+00:00,zero_shot,ClockStopWatchRunning,1,3429360255,True,1,1.0,3,55.158875703811646,success,60039,59857,182,,Run the stopwatch.
+2026-08-13T02:22:31.016231+00:00,zero_shot,ClockStopWatchRunning,2,2304307552,True,1,1.0,3,55.93561410903931,success,51211,51030,181,,Run the stopwatch.
+2026-08-13T02:23:44.017922+00:00,zero_shot,ClockStopWatchRunning,3,982386346,True,1,1.0,4,71.56946325302124,success,77552,77289,263,,Run the stopwatch.
+2026-08-13T02:24:40.137128+00:00,zero_shot,ClockStopWatchRunning,4,2244129732,True,1,1.0,3,54.949143409729004,success,51211,51030,181,,Run the stopwatch.
+2026-08-13T02:25:32.479562+00:00,zero_shot,ClockStopWatchRunning,5,2380428130,True,1,1.0,3,51.1686487197876,success,51183,51012,171,,Run the stopwatch.
+2026-08-13T02:26:10.113616+00:00,zero_shot,ClockStopWatchPausedVerify,1,3959502054,True,1,1.0,2,36.54858732223511,success,34374,34260,114,,Pause the stopwatch.
+2026-08-13T02:28:58.566246+00:00,zero_shot,ClockStopWatchPausedVerify,2,1833061731,False,0,0.9166666666666666,10,165.76466298103333,failure,265922,264538,1384,,Pause the stopwatch.
+2026-08-13T02:29:39.417011+00:00,zero_shot,ClockStopWatchPausedVerify,3,629279813,True,1,0.9230769230769231,2,39.76972579956055,success,42863,42670,193,,Pause the stopwatch.
+2026-08-13T02:30:17.304346+00:00,zero_shot,ClockStopWatchPausedVerify,4,318062807,True,1,0.9285714285714286,2,36.75763726234436,success,43656,43466,190,,Pause the stopwatch.
+2026-08-13T02:32:40.726353+00:00,zero_shot,ClockStopWatchPausedVerify,5,4037155113,True,1,0.9333333333333333,8,141.00021409988403,success,203611,202259,1352,,Pause the stopwatch.
+2026-08-13T02:35:22.477014+00:00,zero_shot,RecipeDeleteSingleRecipe,1,4252496861,True,1,0.9375,9,158.65966057777405,success,191565,190739,826,,Delete the following recipes from Broccoli app: Thai Peanut Noodle Salad.
+2026-08-13T02:38:26.765094+00:00,zero_shot,RecipeDeleteSingleRecipe,2,3773831362,True,1,0.9411764705882353,10,180.6747281551361,success,201819,200998,821,,Delete the following recipes from Broccoli app: BBQ Chicken Quesadillas.
+2026-08-13T02:41:20.729508+00:00,zero_shot,RecipeDeleteSingleRecipe,3,1524830436,False,0,0.8888888888888888,10,170.5703887939453,failure,265862,264487,1375,,Delete the following recipes from Broccoli app: Sweet Potato and Black Bean Tacos.
+2026-08-13T02:44:04.304848+00:00,zero_shot,RecipeDeleteSingleRecipe,4,2254776450,False,0,0.8421052631578947,10,160.11115956306458,failure,256807,255620,1187,,Delete the following recipes from Broccoli app: Spinach and Feta Stuffed Chicken.
+2026-08-13T02:47:05.477640+00:00,zero_shot,RecipeDeleteSingleRecipe,5,2644700427,False,0,0.8,10,178.0142138004303,failure,203018,202024,994,,Delete the following recipes from Broccoli app: Greek Salad Pita Pockets.
+2026-08-13T02:56:20.062268+00:00,zero_shot,RecipeDeleteSingleWithRecipeWithNoise,1,1967173552,False,0,0.7619047619047619,20,550.5120174884796,failure,801258,799347,1911,,Delete the following recipes from Broccoli app: Classic Margherita Pizza.
+2026-08-13T03:05:47.909644+00:00,zero_shot,RecipeDeleteSingleWithRecipeWithNoise,2,3206931563,False,0,0.7272727272727273,20,563.547203540802,failure,506600,503388,3212,,Delete the following recipes from Broccoli app: Moroccan Chickpea Stew.
+2026-08-13T03:14:25.615608+00:00,zero_shot,RecipeDeleteSingleWithRecipeWithNoise,3,2974467732,False,0,0.6956521739130435,20,510.67360496520996,failure,616009,612895,3114,,Delete the following recipes from Broccoli app: Spinach and Feta Stuffed Chicken.
+2026-08-13T03:20:43.068785+00:00,zero_shot,RecipeDeleteSingleWithRecipeWithNoise,4,2021627288,False,0,0.6666666666666666,20,373.3533282279968,failure,492622,490349,2273,,Delete the following recipes from Broccoli app: Pan-Seared Salmon with Quinoa.
+2026-08-13T03:28:07.722544+00:00,zero_shot,RecipeDeleteSingleWithRecipeWithNoise,5,240511635,False,0,0.64,20,440.55745697021484,failure,722318,719803,2515,,Delete the following recipes from Broccoli app: Vegetarian Chili.
+2026-08-13T03:31:06.234775+00:00,zero_shot,AudioRecorderRecordAudio,1,2842804519,False,0,0.6153846153846154,12,176.6728231906891,failure,295676,294249,1427,,Record an audio clip using Audio Recorder app and save it.
+2026-08-13T03:34:05.651642+00:00,zero_shot,AudioRecorderRecordAudio,2,1818871161,False,0,0.5925925925925926,12,177.67926383018494,failure,285701,284162,1539,,Record an audio clip using Audio Recorder app and save it.
+2026-08-13T03:40:16.637176+00:00,zero_shot,AudioRecorderRecordAudio,3,4172089815,False,0,0.5714285714285714,12,368.6060869693756,failure,251701,250403,1298,,Record an audio clip using Audio Recorder app and save it.
+2026-08-13T03:43:14.144954+00:00,zero_shot,AudioRecorderRecordAudio,4,293270524,False,0,0.5517241379310345,12,175.79910016059875,failure,295642,294215,1427,,Record an audio clip using Audio Recorder app and save it.
+2026-08-13T03:46:17.129021+00:00,zero_shot,AudioRecorderRecordAudio,5,1055624103,False,0,0.5333333333333333,12,181.12394165992737,failure,276976,275676,1300,,Record an audio clip using Audio Recorder app and save it.
+2026-08-13T03:53:30.703599+00:00,zero_shot,BrowserDraw,1,1466251684,False,0,0.5161290322580645,20,427.56206130981445,failure,395383,393305,2078,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-13T04:00:41.230732+00:00,zero_shot,BrowserDraw,2,3173652066,False,0,0.5,20,424.80294132232666,failure,386385,384521,1864,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-13T04:08:04.712576+00:00,zero_shot,BrowserDraw,3,3045298826,False,0,0.48484848484848486,20,437.58545875549316,failure,412882,410818,2064,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-13T04:15:29.780450+00:00,zero_shot,BrowserDraw,4,1852433653,False,0,0.47058823529411764,20,436.1920189857483,failure,367990,366183,1807,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-13T04:21:31.535436+00:00,zero_shot,BrowserDraw,5,2480810279,False,0,0.45714285714285713,20,356.9691514968872,failure,392337,390234,2103,,Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.
+2026-08-13T04:23:29.828926+00:00,zero_shot,CameraTakePhoto,1,3729977769,False,0,0.4444444444444444,10,116.11937975883484,failure,141907,140402,1505,,Take one photo.
+2026-08-13T04:25:32.538989+00:00,zero_shot,CameraTakePhoto,2,4046708894,False,0,0.43243243243243246,10,120.71279692649841,failure,142107,140438,1669,,Take one photo.
+2026-08-13T04:27:34.318260+00:00,zero_shot,CameraTakePhoto,3,332350226,False,0,0.42105263157894735,10,119.74200916290283,failure,142228,140418,1810,,Take one photo.
+2026-08-13T04:29:35.046937+00:00,zero_shot,CameraTakePhoto,4,2463937979,False,0,0.41025641025641024,10,118.68084931373596,failure,142208,140454,1754,,Take one photo.
+2026-08-13T04:31:26.825333+00:00,zero_shot,CameraTakePhoto,5,1465436654,False,0,0.4,10,109.76111459732056,failure,141905,140400,1505,,Take one photo.
+2026-08-13T04:34:29.494323+00:00,zero_shot,ContactsAddContact,1,1155463587,False,0,0.3902439024390244,12,180.8627986907959,failure,283159,282051,1108,,Create a new contact for Hugo Pereira. Their number is +13920741751.
+2026-08-13T04:37:30.937648+00:00,zero_shot,ContactsAddContact,2,1324763856,False,0,0.38095238095238093,12,179.5923614501953,failure,274916,273648,1268,,Create a new contact for Mariam Chen. Their number is +18332445674.
+2026-08-13T04:40:31.999923+00:00,zero_shot,ContactsAddContact,3,596600690,False,0,0.37209302325581395,12,179.2786853313446,failure,283418,282297,1121,,Create a new contact for Isla Martin. Their number is +15256606183.
+2026-08-13T04:43:34.922166+00:00,zero_shot,ContactsAddContact,4,160809665,False,0,0.36363636363636365,12,181.04276371002197,failure,283582,282458,1124,,Create a new contact for Sophie Ahmed. Their number is +11555474287.
+2026-08-13T04:46:34.344569+00:00,zero_shot,ContactsAddContact,5,1465379013,False,0,0.35555555555555557,12,177.6251678466797,failure,282837,281806,1031,,Create a new contact for Sophia Zhang. Their number is +17890682839.
+2026-08-13T04:50:44.554316+00:00,zero_shot,ExpenseAddSingle,1,2452300024,False,0,0.34782608695652173,12,246.4339907169342,failure,324299,323177,1122,,"Add the following expenses into the pro expense:
+Expense: Therapy Sessions
+ amount_dollars: $307.01
+ category_name: Health Care
+ note: I may repeat this
+"
+2026-08-13T04:56:48.524967+00:00,zero_shot,ExpenseAddSingle,2,597338444,False,0,0.3404255319148936,12,360.24646759033203,failure,316643,313918,2725,,"Add the following expenses into the pro expense:
+Expense: Health Insurance
+ amount_dollars: $317.47
+ category_name: Health Care
+ note: I may repeat this
+"
+2026-08-13T05:02:32.177176+00:00,zero_shot,ExpenseAddSingle,3,717121028,False,0,0.3333333333333333,12,340.08233642578125,failure,316773,314657,2116,,"Add the following expenses into the pro expense:
+name|amount_dollars|category_name|note
+Sportswear|$418.57|Clothes|A need"
+2026-08-13T05:09:00.894862+00:00,zero_shot,ExpenseAddSingle,4,1466132497,False,0,0.32653061224489793,12,384.8925852775574,failure,307111,303792,3319,,"Add the following expenses into the pro expense:
+Expense: Seminars
+ amount_dollars: $441.21
+ category_name: Education
+ note: I may repeat this
+"
+2026-08-13T05:17:38.472873+00:00,zero_shot,ExpenseAddSingle,5,25538047,False,0,0.32,12,513.6801538467407,failure,270042,268254,1788,,"Add the following expenses into the pro expense:
+name|amount_dollars|category_name|note
+Shirt Purchase|$271.64|Clothes|Paid by card"
+2026-08-13T05:26:41.492871+00:00,zero_shot,FilesDeleteFile,1,1206130099,False,0,0.3137254901960784,22,537.3849430084229,failure,465165,461235,3930,,Delete the file q2a8_fancy_banana.mp3 from the Android filesystem located in the Notifications folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T05:34:26.334026+00:00,zero_shot,FilesDeleteFile,2,3328094535,False,0,0.3076923076923077,22,458.1013562679291,failure,405755,404356,1399,,Delete the file RtPP_cool_nest.mp3 from the Android filesystem located in the Ringtones folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T05:43:40.978471+00:00,zero_shot,FilesDeleteFile,3,4231481284,False,0,0.3018867924528302,22,548.9430360794067,failure,472054,467124,4930,,Delete the file wdv5_ready_unicorn.mp3 from the Android filesystem located in the Ringtones folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T05:52:01.427256+00:00,zero_shot,FilesDeleteFile,4,801569313,False,0,0.2962962962962963,22,494.12936758995056,failure,407961,405173,2788,,Delete the file copy_calm_yacht.mp4 from the Android filesystem located in the Movies folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T06:01:43.093536+00:00,zero_shot,FilesDeleteFile,5,3008059121,False,0,0.2909090909090909,22,574.630129814148,failure,589661,587477,2184,,Delete the file 2023_02_28_strong_yacht.jpg from the Android filesystem located in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T06:04:59.233827+00:00,zero_shot,MarkorCreateFolder,1,3163095783,False,0,0.2857142857142857,10,193.42043495178223,failure,252129,250898,1231,,Create a new folder in Markor named folder_20260813_101821.
+2026-08-13T06:08:17.440740+00:00,zero_shot,MarkorCreateFolder,2,2214371470,False,0,0.2807017543859649,10,195.67611718177795,failure,251811,250611,1200,,Create a new folder in Markor named folder_20260813_101821.
+2026-08-13T06:11:38.256745+00:00,zero_shot,MarkorCreateFolder,3,1649268522,False,0,0.27586206896551724,10,198.26701712608337,failure,251733,250457,1276,,Create a new folder in Markor named folder_20260813_101821.
+2026-08-13T06:15:58.996957+00:00,zero_shot,MarkorCreateFolder,4,2384214437,False,0,0.2711864406779661,10,258.20039916038513,failure,88480,88066,414,,Create a new folder in Markor named folder_20260813_101821.
+2026-08-13T06:17:43.285158+00:00,zero_shot,MarkorCreateFolder,5,4123091621,False,0,0.26666666666666666,10,101.07225036621094,failure,,,,,Create a new folder in Markor named folder_20260813_101821.
+2026-08-13T06:19:58.234838+00:00,zero_shot,NotesIsTodo,1,2511191301,False,0,0.26229508196721313,10,127.51236891746521,failure,,,,,Is the note titled 'To-Do List' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-13T06:22:01.061900+00:00,zero_shot,NotesIsTodo,2,2010807541,False,0,0.25806451612903225,10,116.0324821472168,failure,,,,,Is the note titled 'Research Notes' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-13T06:24:01.622506+00:00,zero_shot,NotesIsTodo,3,3492714222,False,0,0.25396825396825395,10,113.59435391426086,failure,,,,,Is the note titled 'Budget Spreadsheet' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-13T06:26:01.704802+00:00,zero_shot,NotesIsTodo,4,2561353086,False,0,0.25,10,113.23773980140686,failure,,,,,Is the note titled 'Travel Itinerary' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-13T06:28:14.172389+00:00,zero_shot,NotesIsTodo,5,1311516886,False,0,0.24615384615384617,10,125.11972117424011,failure,,,,,Is the note titled 'Daily Journal' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.
+2026-08-13T06:30:20.451400+00:00,zero_shot,OsmAndFavorite,1,2436087218,False,0,0.24242424242424243,13,119.4596893787384,failure,,,,,"Add a favorite location marker for 47.1303814, 9.5930117 in the OsmAnd maps app."
+2026-08-13T06:32:26.462903+00:00,zero_shot,OsmAndFavorite,2,3101813186,False,0,0.23880597014925373,13,122.12578415870667,failure,,,,,"Add a favorite location marker for Malbun, Liechtenstein in the OsmAnd maps app."
+2026-08-13T06:34:35.645735+00:00,zero_shot,OsmAndFavorite,3,3726621214,False,0,0.23529411764705882,13,125.23838925361633,failure,,,,,"Add a favorite location marker for 47.23976, 9.5262837 in the OsmAnd maps app."
+2026-08-13T06:36:40.469486+00:00,zero_shot,OsmAndFavorite,4,2305695353,False,0,0.2318840579710145,13,120.90630030632019,failure,,,,,"Add a favorite location marker for Malbun, Liechtenstein in the OsmAnd maps app."
+2026-08-13T06:38:52.449854+00:00,zero_shot,OsmAndFavorite,5,460686691,False,0,0.22857142857142856,13,127.68236804008484,failure,,,,,"Add a favorite location marker for 47.1858882, 9.5452201 in the OsmAnd maps app."
+2026-08-13T06:39:20.232323+00:00,zero_shot,RetroPlayingQueue,1,,,,0.22857142857142856,nan,27.74101209640503,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 85, in run_episode
+    if termination_fn(agent.env):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 204, in is_successful
+    queue = _get_playing_queue(env)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 92, in _get_playing_queue
+    result = sqlite_utils.execute_query(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/utils/sqlite_utils.py"", line 46, in execute_query
+    raw_rows = cursor.execute(query).fetchall()
+               ^^^^^^^^^^^^^^^^^^^^^
+pysqlite3.dbapi2.OperationalError: no such table: playing_queue
+","Add the following songs, in order, Through the Storm, Hidden Paths, Forever Young, Whispers of the Past, Heartbeat Away to my playing queue in Retro music."
+2026-08-13T06:39:42.159807+00:00,zero_shot,RetroPlayingQueue,2,,,,0.22857142857142856,nan,21.88406205177307,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 85, in run_episode
+    if termination_fn(agent.env):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 204, in is_successful
+    queue = _get_playing_queue(env)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 92, in _get_playing_queue
+    result = sqlite_utils.execute_query(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/utils/sqlite_utils.py"", line 46, in execute_query
+    raw_rows = cursor.execute(query).fetchall()
+               ^^^^^^^^^^^^^^^^^^^^^
+pysqlite3.dbapi2.OperationalError: no such table: playing_queue
+","Add the following songs, in order, Forever Young, City of Stars, Twilight Calling, Lost in the Echo, Return to Paradise to my playing queue in Retro music."
+2026-08-13T06:40:01.302265+00:00,zero_shot,RetroPlayingQueue,3,,,,0.22857142857142856,nan,19.111871480941772,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 85, in run_episode
+    if termination_fn(agent.env):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 204, in is_successful
+    queue = _get_playing_queue(env)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 92, in _get_playing_queue
+    result = sqlite_utils.execute_query(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/utils/sqlite_utils.py"", line 46, in execute_query
+    raw_rows = cursor.execute(query).fetchall()
+               ^^^^^^^^^^^^^^^^^^^^^
+pysqlite3.dbapi2.OperationalError: no such table: playing_queue
+","Add the following songs, in order, Waves of Change, Forever Young, Whispering Wind to my playing queue in Retro music."
+2026-08-13T06:40:23.882319+00:00,zero_shot,RetroPlayingQueue,4,,,,0.22857142857142856,nan,22.548956632614136,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 85, in run_episode
+    if termination_fn(agent.env):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 204, in is_successful
+    queue = _get_playing_queue(env)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 92, in _get_playing_queue
+    result = sqlite_utils.execute_query(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/utils/sqlite_utils.py"", line 46, in execute_query
+    raw_rows = cursor.execute(query).fetchall()
+               ^^^^^^^^^^^^^^^^^^^^^
+pysqlite3.dbapi2.OperationalError: no such table: playing_queue
+","Add the following songs, in order, Under the Sky, Chasing Shadows, Whispering Wind, City of Stars, Shadows of Time to my playing queue in Retro music."
+2026-08-13T06:40:43.183485+00:00,zero_shot,RetroPlayingQueue,5,,,,0.22857142857142856,nan,19.26571226119995,exception,,,,"Traceback (most recent call last):
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 296, in _run_task
+    interaction_results = run_episode(task)
+                          ^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/suite_utils.py"", line 517, in run_episode
+    return episode_runner.run_episode(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/episode_runner.py"", line 85, in run_episode
+    if termination_fn(agent.env):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 204, in is_successful
+    queue = _get_playing_queue(env)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/single/retro_music.py"", line 92, in _get_playing_queue
+    result = sqlite_utils.execute_query(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/suyichn/projects/android_world/android_world/task_evals/utils/sqlite_utils.py"", line 46, in execute_query
+    raw_rows = cursor.execute(query).fetchall()
+               ^^^^^^^^^^^^^^^^^^^^^
+pysqlite3.dbapi2.OperationalError: no such table: playing_queue
+","Add the following songs, in order, Shadows of Time, Beyond the Horizon, Orbiting Stars, Moonlight Sonata, Night Drive to my playing queue in Retro music."
+2026-08-13T06:46:36.961815+00:00,zero_shot,SimpleCalendarAddOneEventTomorrow,1,3213291567,False,0,0.22535211267605634,34,343.0126826763153,failure,,,,,"In Simple Calendar Pro, create a calendar event for tomorrow at 20h with the title 'Call with the Team' and the description 'We will prepare for team roles.'. The event should last for 30 mins."
+2026-08-13T06:52:30.048656+00:00,zero_shot,SimpleCalendarAddOneEventTomorrow,2,1366597145,False,0,0.2222222222222222,34,342.46131658554077,failure,,,,,"In Simple Calendar Pro, create a calendar event for tomorrow at 3h with the title 'Review session for Campaign' and the description 'We will understand contract details. Please bring relevant documents.'. The event should last for 15 mins."
+2026-08-13T06:58:29.275800+00:00,zero_shot,SimpleCalendarAddOneEventTomorrow,3,1424567933,False,0,0.2191780821917808,34,345.68385100364685,failure,,,,,"In Simple Calendar Pro, create a calendar event for tomorrow at 0h with the title 'Review session for Annual Report' and the description 'We will understand business objectives. Remember to confirm attendance.'. The event should last for 30 mins."
+2026-08-13T07:04:28.865539+00:00,zero_shot,SimpleCalendarAddOneEventTomorrow,4,1606963305,False,0,0.21621621621621623,34,348.8983533382416,failure,,,,,"In Simple Calendar Pro, create a calendar event for tomorrow at 13h with the title 'Meeting with Dr. Smith' and the description 'We will prepare for team roles. Snacks will be provided.'. The event should last for 15 mins."
+2026-08-13T07:10:22.131573+00:00,zero_shot,SimpleCalendarAddOneEventTomorrow,5,2029794570,False,0,0.21333333333333335,34,342.69505071640015,failure,,,,,"In Simple Calendar Pro, create a calendar event for tomorrow at 7h with the title 'Appointment for Annual Report' and the description 'We will prepare for software updates.'. The event should last for 60 mins."
+2026-08-13T07:13:29.011163+00:00,zero_shot,SimpleDrawProCreateDrawing,1,3242452795,False,0,0.21052631578947367,18,180.38418054580688,failure,,,,,Create a new drawing in Simple Draw Pro. Name it adipiscing_fair_jelly_final.png. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T07:16:30.199055+00:00,zero_shot,SimpleDrawProCreateDrawing,2,230228502,False,0,0.2077922077922078,18,174.57394075393677,failure,,,,,Create a new drawing in Simple Draw Pro. Name it amet_tough_mouse_YjdS.svg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T07:19:36.861768+00:00,zero_shot,SimpleDrawProCreateDrawing,3,4285284036,False,0,0.20512820512820512,18,177.2899899482727,failure,,,,,Create a new drawing in Simple Draw Pro. Name it consectetur_aKj4_pretty_pig.jpg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T07:22:41.182464+00:00,zero_shot,SimpleDrawProCreateDrawing,4,1251953433,False,0,0.20253164556962025,18,177.79384803771973,failure,,,,,Create a new drawing in Simple Draw Pro. Name it adipiscing_GiPn_good_dog.svg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T07:25:45.603857+00:00,zero_shot,SimpleDrawProCreateDrawing,5,315159936,False,0,0.2,18,177.26571822166443,failure,,,,,Create a new drawing in Simple Draw Pro. Name it elit_sharp_elephant_gi4h.jpg. Save it in the Pictures folder within the sdk_gphone_x86_64 storage area.
+2026-08-13T07:29:40.142255+00:00,zero_shot,SimpleSmsReply,1,503761173,False,0,0.19753086419753085,12,230.9927933216095,failure,,,,,Reply to +18407874306 with message: Yoga class every Tuesday and Thursday at 6 PM. in Simple SMS Messenger
+2026-08-13T07:33:20.852943+00:00,zero_shot,SimpleSmsReply,2,865217362,False,0,0.1951219512195122,12,216.80468583106995,failure,,,,,Reply to +10054823973 with message: Pick up groceries: Milk and Bread and Apples. in Simple SMS Messenger
+2026-08-13T07:37:11.842877+00:00,zero_shot,SimpleSmsReply,3,2416437184,False,0,0.1927710843373494,12,224.2773311138153,failure,,,,,Reply to +19704943353 with message: Ignorance is bliss. in Simple SMS Messenger
+2026-08-13T07:40:51.049453+00:00,zero_shot,SimpleSmsReply,4,2036699084,False,0,0.19047619047619047,12,215.78375601768494,failure,,,,,Reply to +12889290955 with message: Pick up groceries: Milk and Bread and Apples. in Simple SMS Messenger
+2026-08-13T07:44:31.797497+00:00,zero_shot,SimpleSmsReply,5,2875320595,False,0,0.18823529411764706,12,217.4371907711029,failure,,,,,Reply to +16623739695 with message: You can't make an omelette without breaking a few eggs. in Simple SMS Messenger
+2026-08-13T07:46:13.313828+00:00,zero_shot,SportsTrackerActivitiesCountForWeek,1,3624822263,False,0,0.18604651162790697,10,97.09199500083923,failure,,,,,How many running activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-13T07:47:54.706312+00:00,zero_shot,SportsTrackerActivitiesCountForWeek,2,1954319436,False,0,0.1839080459770115,10,97.00652003288269,failure,,,,,How many cycling activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-13T07:49:35.799636+00:00,zero_shot,SportsTrackerActivitiesCountForWeek,3,4004703764,False,0,0.18181818181818182,10,96.72421407699585,failure,,,,,How many climbing activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-13T07:51:17.392298+00:00,zero_shot,SportsTrackerActivitiesCountForWeek,4,4096420356,False,0,0.1797752808988764,10,97.1670036315918,failure,,,,,How many climbing activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-13T07:52:55.205695+00:00,zero_shot,SportsTrackerActivitiesCountForWeek,5,3984945790,False,0,0.17777777777777778,10,93.4055380821228,failure,,,,,How many running activities did I do this week in the OpenTracks app? Assume the week starts from Monday. Express your answer as a single integer.
+2026-08-13T07:54:34.636237+00:00,zero_shot,SystemWifiTurnOn,1,3688789235,False,0,0.17582417582417584,10,96.50920081138611,failure,,,,,Turn wifi on.
+2026-08-13T07:56:15.441099+00:00,zero_shot,SystemWifiTurnOn,2,1234888901,False,0,0.17391304347826086,10,97.94355750083923,failure,,,,,Turn wifi on.
+2026-08-13T07:57:56.980973+00:00,zero_shot,SystemWifiTurnOn,3,3823545222,False,0,0.17204301075268819,10,98.26654982566833,failure,,,,,Turn wifi on.
+2026-08-13T07:59:35.003093+00:00,zero_shot,SystemWifiTurnOn,4,2261494467,False,0,0.1702127659574468,10,95.15893959999084,failure,,,,,Turn wifi on.
+2026-08-13T08:01:12.831238+00:00,zero_shot,SystemWifiTurnOn,5,2101599970,False,0,0.16842105263157894,10,91.99959540367126,failure,,,,,Turn wifi on.
+2026-08-13T08:02:50.610525+00:00,zero_shot,TasksDueOnDate,1,96649108,False,0,0.16666666666666666,10,93.38713717460632,failure,,,,,"What tasks do I have due October 24 2023 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-13T08:04:31.542504+00:00,zero_shot,TasksDueOnDate,2,1732491667,False,0,0.16494845360824742,10,96.54703998565674,failure,,,,,"What tasks do I have due October 15 2023 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-13T08:06:12.630034+00:00,zero_shot,TasksDueOnDate,3,3913915727,False,0,0.16326530612244897,10,96.67092990875244,failure,,,,,"What tasks do I have due October 28 2023 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-13T08:07:53.198941+00:00,zero_shot,TasksDueOnDate,4,2694246789,False,0,0.16161616161616163,10,96.19667482376099,failure,,,,,"What tasks do I have due October 26 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-13T08:09:37.888722+00:00,zero_shot,TasksDueOnDate,5,2765577585,False,0,0.16,10,100.28796768188477,failure,,,,,"What tasks do I have due October 17 in Tasks app? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list."
+2026-08-13T08:14:29.613903+00:00,zero_shot,VlcCreatePlaylist,1,3947792439,False,0,0.15841584158415842,28,280.1262581348419,failure,,,,,"Create a playlist titled ""Ultimate Fails Series"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: highlight_41_4K_2023_03_30.mp4, scene_68_4K_copy.mp4"
+2026-08-13T08:19:43.101073+00:00,zero_shot,VlcCreatePlaylist,2,871812965,False,0,0.1568627450980392,28,301.4914412498474,failure,,,,,"Create a playlist titled ""Mystery and Thrills Ultimate Collection"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: 2023_04_20_moment_42_4K.mp4, recording_15_raw_final.mp4"
+2026-08-13T08:24:46.334982+00:00,zero_shot,VlcCreatePlaylist,3,314102247,False,0,0.1553398058252427,28,288.59420895576477,failure,,,,,"Create a playlist titled ""Comedy Series"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: 2023_02_13_footage_40_raw.mp4, 2023_08_17_episode_41_raw.mp4, episode_33_export_2023_07_13.mp4, copy_highlight_91_raw.mp4"
+2026-08-13T08:29:38.231921+00:00,zero_shot,VlcCreatePlaylist,4,1092325361,False,0,0.15384615384615385,28,280.3025417327881,failure,,,,,"Create a playlist titled ""Road Trips Essentials"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: footage_78_export_2023_02_08.mp4, aXM7_moment_88_HD.mp4"
+2026-08-13T08:34:38.049470+00:00,zero_shot,VlcCreatePlaylist,5,564957062,False,0,0.1523809523809524,28,285.1501533985138,failure,,,,,"Create a playlist titled ""How To Favorites"" with the following files in VLC (located in Internal Memory/VLCVideos), in order: highlight_68_HD_final.mp4, highlight_10_raw_js2b.mp4"
