@@ -328,7 +328,14 @@ ClockStopWatchRunning 是短链路任务，Baseline A 本身已经能稳定完�
 
 在SystemWifiTurnOn任务中，DMS系统展现了显著的进化效果：第一轮:执行 6 steps, 消耗 183k tokens；第2-5轮：稳定于 4 steps，消耗 74k-83k tokens。
 
-### 6.5 初步分析
+### 6.5 记忆库增长
+<img width="2224" height="1190" alt="image" src="https://github.com/user-attachments/assets/00148c21-0e2d-46d2-bdb3-08468bbe30dc" />
+
+前期：memory size 从 C_min=18 附近逐步增长，表示成功轨迹被写入记忆库。
+中期：曲线可能出现平台期，表示部分任务失败或没有产生可保存记忆。
+后期：继续增长并接近 C_max=72，展示 DMS 的动态积累。
+
+### 6.6 初步分析
 
 DMS 的提升主要来自两点：一是成功轨迹可以被结构化保存并在后续 trial 中复用；二是 survival value 与 risk gate 能抑制低质量记忆继续参与决策。对于 Clock、Audio Recorder、System Wi-Fi、SimpleDraw 和 SimpleSMS 这类关键控件相对稳定的任务，DMS 更容易形成可复用经验。
 
