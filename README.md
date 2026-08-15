@@ -92,7 +92,7 @@ android_world/
 |工程文档目录|`E:\桌面\my-project`|
 |Android SDK|`~/Android/Sdk`，由 WSL 侧访问|
 |模拟器设备|`emulator-5554`|
-|AVD 名称|建议使用 `AndroidWorldAvd`|
+|AVD 名称| `AndroidWorldAvd`|
 
 
 ### 3.2 WSL 与 Python 环境
