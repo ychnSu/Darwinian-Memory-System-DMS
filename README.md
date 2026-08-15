@@ -330,6 +330,9 @@ ClockStopWatchRunning 是短链路任务，Baseline A 本身已经能稳定完�
 
 从 trial 变化看，DMS 在这两个代表任务上表现为更稳定的跨轮执行。相比之下，Baseline B 即使偶尔成功，也没有形成稳定收敛；这说明单纯追加历史上下文不足以保证经验复用，必须配合 DMS 的检索、风险门控和 replay 机制。
 
+在SystemWifiTurnOn任务中，DMS系统展现了良好的进化效果：
+<img width="1934" height="1008" alt="image" src="https://github.com/user-attachments/assets/6d54745b-21c8-46ca-9b9d-26a488824765" />
+
 ### 6.5 初步分析
 
 DMS 的提升主要来自两点：一是成功轨迹可以被结构化保存并在后续 trial 中复用；二是 survival value 与 risk gate 能抑制低质量记忆继续参与决策。对于 Clock、Audio Recorder、System Wi-Fi、SimpleDraw 和 SimpleSMS 这类关键控件相对稳定的任务，DMS 更容易形成可复用经验。
