@@ -293,7 +293,7 @@ Pruning 产生的指标会写入 `results.csv` 和 `summary.json`，包括 `memo
 
 本项目没有直接运行 AndroidWorld 全量任务，而是构建了一个规模更小、可重复执行的 mini-benchmark。该测试集保存在 `configs/mini_benchmark.json`，每个任务默认运行 5 个 trials，与论文中的多轮评估设置保持一致。
 
-mini-benchmark 共包含 22 个任务模板，覆盖全部 20 个真实应用场景，包括 Clock、Camera、Contacts、Files、Settings、Markor、Joplin、OsmAnd、VLC、Simple Calendar、Simple SMS、Audio Recorder 等。任务选择以 easy 为主，少量使用 medium 任务补足应用覆盖；同时保留 Baseline A 曾成功过的任务，便于观察 DMS 是否能在可学习任务上体现经验复用收益。
+mini-benchmark 共包含 22 个任务模板，覆盖全部 20 个真实应用场景，包括 Clock、Camera、Contacts、Files、Settings、Markor、Joplin、OsmAnd、VLC、Simple Calendar、Simple SMS、Audio Recorder 等。
 
 ### 6.2 三类方法总体对比
 
