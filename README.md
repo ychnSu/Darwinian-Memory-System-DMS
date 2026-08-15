@@ -4,7 +4,7 @@
 
 本项目在AndroidWorld 任务环境中复现论文 **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** 中提出的 Darwinian Memory System（DMS），用于评估 GUI Agent 在多轮任务执行中的经验积累、记忆复用和自我调节能力。
 
-本复现工程关注的问题是：在不训练模型参数的前提下，是否可以通过外部记忆系统提升 GUI Agent 在重复试验中的执行效率和成功率。为此，项目在同一 AndroidWorld 环境、同一 VLM 后端和同一任务集合上比较三种方法：
+本复现工程关注的问题是：在不训练模型参数的前提下，是否可以通过外部记忆系统提升 GUI Agent 在重复试验中的执行效率和成功率。为此，项目在相同模型、评测环境以及任务集合上比较三种方法：
 
 |方法|简称|核心特征|
 |-|-|-|
