@@ -279,7 +279,7 @@ Pruning 用于控制记忆库规模，并淘汰低 survival value 的经验。�
 
 Pruning 产生的指标会写入 `results.csv` 和 `summary.json`，包括 `memory_size`、`memory_survival_mean`、`memory_last_pruned_count`、`memory_current_capacity` 和 `memory_total_pruned`，后续由 `scripts/dms_metrics_report.py` 生成可视化。
 
-## 6. 实验结果展示与分析
+## 6. 结果展示与分析
 
 完整合并结果保存在：
 
