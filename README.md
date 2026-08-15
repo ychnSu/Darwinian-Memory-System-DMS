@@ -59,7 +59,7 @@ android_world/
 实验输出统一写入：
 
 ```text
-~/android_world_results/<run_name>/
+~/android_world_results/
 ├── results.csv                  # 每个 episode 的增量结果
 ├── summary.json                 # 本轮实验总体指标
 ├── run.log                      # 完整终端日志
