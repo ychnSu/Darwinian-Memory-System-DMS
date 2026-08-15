@@ -330,7 +330,7 @@ ClockStopWatchRunning 是短链路任务，Baseline A 本身已经能稳定完�
 
 从 trial 变化看，DMS 在这两个代表任务上表现为更稳定的跨轮执行。相比之下，Baseline B 即使偶尔成功，也没有形成稳定收敛；这说明单纯追加历史上下文不足以保证经验复用，必须配合 DMS 的检索、风险门控和 replay 机制。
 
-在SystemWifiTurnOn任务中，DMS系统展现了良好的进化效果：
+在SystemWifiTurnOn任务中，DMS系统展现了显著的进化效果：
 <img width="1934" height="1008" alt="image" src="https://github.com/user-attachments/assets/6d54745b-21c8-46ca-9b9d-26a488824765" />
 
 ### 6.5 初步分析
