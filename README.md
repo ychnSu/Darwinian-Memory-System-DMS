@@ -382,10 +382,8 @@ Planner 侧主要强化为：
 
 |调整|当前设置或做法|原因|
 |-|-|-|
-|页面切换等待|`TRANSITION_PAUSE=1.5`|模拟器启动、弹窗和页面切换较慢，过早观察会导致模型基于半加载页面决策|
+|页面切换等待|`TRANSITION_PAUSE=1.5`|模拟器启动、弹窗和页面切换较慢，过早观察会频繁报：Could not get a11y tree, retrying.|
 |DMS 记忆容量|`C_min=18`，`C_max=72`|mini-benchmark 规模较小，过大的容量会让 pruning 长期不触发|
-|Pruning 周期|`PRUNE_INTERVAL=5`|与每任务 5 trials 的实验节奏对齐|
-|Embedding|本地 `bge-base-en-v1.5`|避免远程 embedding 连接中断影响 DMS 写入和检索|
 |Risk gate|Beta-Binomial + `T_global`|在整体失败率升高时更谨慎地 replay 历史经验|
 |Task-level fallback memory|成功任务即使没有 sub-plan memory，也保存完整任务轨迹|避免早期 memory size 长期为 0，保证 DMS 有可进化对象|
 
