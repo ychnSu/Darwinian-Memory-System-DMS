@@ -108,15 +108,9 @@ android_world/
 |Conda 环境|`android_world`|
 |Python|3.11|
 |主要入口|`run.py`、`minimal_task_runner.py`、`scripts/*.sh`|
-
-核心参数：
-
-|参数|当前值|
-|-|-|
-|`CONDA_ENV`|`android_world`|
-|`PYTHON_VERSION`|`3.11`|
 |`DEVICE_SERIAL`|`emulator-5554`|
 |`ANDROID_SDK_ROOT`|`~/Android/Sdk`|
+
 
 环境构建与验证：
 
