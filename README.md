@@ -76,9 +76,8 @@ android_world/
 
 ## 3. 环境搭建
 
-本项目采用“本地 Windows + WSL2 + Android Emulator + 远程 VLM 推理”的混合环境。AndroidWorld 与实验脚本在 WSL 中运行，Android 模拟器由本机提供，VLM 推理由远程 GPU 服务器提供，embedding 当前使用本地模型。
+本项目环境为：本地 Windows + WSL2 + Android Emulator + 远程 VLM 推理。AndroidWorld 与实验脚本在 WSL 中运行，Android 模拟器由本机提供，VLM 推理由远程 GPU 服务器提供，embedding 当前使用本地模型。
 
-环境说明以简要、可复现为原则：正文只记录核心参数，完整构建与验证由脚本执行。
 
 ### 3.1 本地 Windows 环境
 
