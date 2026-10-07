@@ -1,4 +1,4 @@
-# Darwinian Memory System (DMS) 复现技术报告
+# Darwinian Memory System (DMS) 算法级复现与讨论
 
 ## 1. 项目介绍
 
